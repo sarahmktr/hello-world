@@ -69,7 +69,7 @@ class Field {
                     } else if (this._field[this._locationY][this._locationX] === hole) {
                         console.log("Uh oh, you fell downnnnnnn.......... Try again!");
                     } else {
-                    this._field[this._locationY][this._locationX] = pathCharacter
+                    this._field[this._locationY][this._locationX] = pathCharacter;
                     this.print();
                     this.askQuestion();
                     } 
@@ -86,7 +86,7 @@ class Field {
                     } else if (this._field[this._locationY][this._locationX] === hole) {
                         console.log("Uh oh, you fell downnnnnnn.......... Try again!");
                     } else {
-                    this._field[this._locationY][this._locationX] = pathCharacter
+                    this._field[this._locationY][this._locationX] = pathCharacter;
                     this.print();
                     this.askQuestion();
                     }
@@ -103,7 +103,7 @@ class Field {
                     } else if (this._field[this._locationY][this._locationX] === hole) {
                         console.log("Uh oh, you fell downnnnnnn.......... Try again!");
                     } else {
-                    this._field[this._locationY][this._locationX] = pathCharacter
+                    this._field[this._locationY][this._locationX] = pathCharacter;
                     this.print();
                     this.askQuestion();
                     }
@@ -120,7 +120,7 @@ class Field {
                     } else if (this._field[this._locationY][this._locationX] === hole) {
                         console.log("Uh oh, you fell downnnnnnn.......... Try again!");
                     } else {
-                    this._field[this._locationY][this._locationX] = pathCharacter
+                    this._field[this._locationY][this._locationX] = pathCharacter;
                     this.print();
                     this.askQuestion();
                     }
